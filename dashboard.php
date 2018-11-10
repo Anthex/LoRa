@@ -10,8 +10,6 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
     <?php include 'chart.php'; ?>
-    <script type="text/javascript">
-    </script>
   </head>
   <body>
     <h1>

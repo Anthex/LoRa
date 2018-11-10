@@ -29,11 +29,6 @@
                       };
 
         var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
-        /*
-        google.visualization.events.addListener(chart, 'ready', function () {
-        chart_div.innerHTML = '<img src="' + chart.getImageURI() + '">';
-        console.log(chart_div.innerHTML);
-      });*/
         chart.draw(data, options);
         
         var previous = "";
@@ -52,12 +47,6 @@
                       datatype : 'text',
                       success : function(response){
                       data.addRows(JSON.parse(response));
-                      /*
-                        google.visualization.events.addListener(chart, 'ready', function () 
-                      {
-                          chart_div.innerHTML = '<img src="' + chart.getImageURI() + '">';
-                      });
-                      */
                       chart.draw(data, options);
                   }});}
                   previous = ajax.getResponseHeader("Last-Modified");
