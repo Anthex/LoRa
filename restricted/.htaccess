@@ -1,4 +1,0 @@
-AuthUserFile /homepages/34/d715315735/htdocs/TO52/restricted/.htpasswd
-AuthName "Password Protected Area"
-AuthType Basic
-require valid-user
