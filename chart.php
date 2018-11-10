@@ -28,9 +28,24 @@
                        legend: {textStyle: {color: 'white'}}
                       };
 
-        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
         chart.draw(data, options);
         
+        var Area = document.getElementById('ar');
+        Area.onclick = function () {
+         chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+          chart.draw(data, options);
+        }
+        var Line = document.getElementById('li');
+        Line.onclick = function () {
+         chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+          chart.draw(data, options);
+        }
+        var Stepped = document.getElementById('st');
+        Stepped.onclick = function () {
+         chart = new google.visualization.SteppedAreaChart(document.getElementById('chart_div'));
+          chart.draw(data, options);
+        }
         var previous = "";
         setInterval(function() {
         var ajax = new XMLHttpRequest();

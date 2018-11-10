@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
   <head>
@@ -22,5 +23,10 @@
       Connecté en tant que : <?php echo $_SERVER['REDIRECT_REMOTE_USER'] ; ?>
     </h4>
     <div id="chart_div"></div>
+    <div id="controls">
+        <a href='javascript:void(0)' class="btn" id = 'li'>Line</a>
+        <a href='javascript:void(0)' class="btn" id = 'st'>Steps</a>
+        <a href='javascript:void(0)' class="btn" id = 'ar'>Area</a>
+    </div>
   </body>
 </html>
