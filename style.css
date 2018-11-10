@@ -10,6 +10,11 @@ background-image: linear-gradient(to right top, #1c1c1c, #25272f, #283444, #2342
   max-height:100%;
   margin:0px;
 }
+p{
+  
+  color:#ffffff;
+  font-family: 'Raleway', sans-serif;
+}
 h1 {
   margin-top:100px;
   text-align: center;
@@ -70,7 +75,7 @@ h4 {
 }
 #colorpicker{
   text-align : center;
-  padding:10px;
+  padding:20px;
   position:absolute;
   right: 0px;
   bottom:10px;
@@ -78,7 +83,9 @@ h4 {
 
 input{
   cursor:pointer;
+  padding: 1px 10px;
   border:0px;
+  border-radius:10px;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
