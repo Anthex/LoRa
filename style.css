@@ -1,0 +1,30 @@
+body{
+/*background-image: linear-gradient(to top, #324457, #353e4d, #363943, #343439, #303030);*/
+background-image: linear-gradient(to right top, #1c1c1c, #25272f, #283444, #234258, #0b526b);
+  width:100%;
+  margin:0px;
+}
+h1 {
+  margin-top:100px;
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+h3 {
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+h4 {
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+#chart_div {
+  border-left:0;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  margin-top:100px;
+}
