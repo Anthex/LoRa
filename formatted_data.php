@@ -1,4 +1,4 @@
-<?php
+<?php/*
 function getData()
 {
     $formatted_rows="";
@@ -16,5 +16,5 @@ function getData()
         }
         fclose($handle);
     }
-  return $formatted_rows;
+  return $formatted_rows;*/
 }?>

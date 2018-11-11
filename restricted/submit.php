@@ -27,7 +27,7 @@ fclose($handle);
       return $output;
     }
 
-  if($linecount > 800){
+  if($linecount > 200){
     decapitate("log_temp.csv");
    }else{
   }
