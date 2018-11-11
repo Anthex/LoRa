@@ -32,7 +32,7 @@ This project is being developped in the context of the TO52 course at [UTBM](htt
  python ./rest 42 69
  ```
  ### Code:
- ```
+ ```python
 import urllib2
 import urllib
 import sys
