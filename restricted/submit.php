@@ -9,5 +9,29 @@ if(isset($_POST["temperature"]) && isset($_POST["humidite"])){
   echo ("Aucune donnée envoyée.");
 }
 
+$file="log_temp.csv";
+$linecount = 0;
+$handle = fopen($file, "r");
+while(!feof($handle)){
+  $line = fgets($handle);
+  $linecount++;
+}
+
+fclose($handle);
+
+ function decapitate($filename) {
+      $file = file($filename);
+      $output = $file[0];
+      unset($file[0]);
+      file_put_contents($filename, $file);
+      return $output;
+    }
+
+  if($linecount > 800){
+    decapitate("log_temp.csv");
+   }else{
+  }
+
+    echo ' - ' . $linecount . ' lignes';
 ?>
 

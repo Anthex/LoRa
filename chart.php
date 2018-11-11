@@ -27,8 +27,8 @@
         
         
         options = {'title':"LoRa module 1",
-                       'width':screen.width,
-                       'height':500,
+                       'width':$(window).width,
+                       'height':$(window).height()/2,
                        isStacked: true,
                        tooltip: { trigger: 'visible' },
                        'backgroundColor': {
@@ -39,6 +39,7 @@
                             0: { color: tempColor, areaOpacity:1 }, //temp
                             1: { color: hygroColor, areaOpacity:1 }, //hygro
                           },
+                       curveType: 'function',
                        titleTextStyle: {color: 'white'},
                         hAxis: {textStyle: {color: 'white'},
                             titleTextStyle: {color: 'white'}},
@@ -87,11 +88,6 @@
                       datatype : 'text',
                       success : function(response){
                       data.addRows(JSON.parse(response));
-                        
-                      
-
-                        
-                        
                       chart.draw(data, options);
                   }});}
                   previous = ajax.getResponseHeader("Last-Modified");

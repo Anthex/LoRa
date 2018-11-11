@@ -31,7 +31,7 @@
     }
   
   $result = update();
-  if($ctt > 100){
+  if($ctt > 1000){
     decapitate("restricted/log_temp.csv");
     $result = update();
    }

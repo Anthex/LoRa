@@ -30,9 +30,9 @@
     </h4>
     <div id="chart_div"></div>
     <div id="controls">
-        <a href='javascript:void(0)' class="btn" id = 'li'>Line</a>
+        <a href='javascript:void(0)' class="btn" id = 'li'>Ligne</a>
         <a href='javascript:void(0)' class="btn" id = 'st'>Colonnes</a>
-        <a href='javascript:void(0)' class="btn" id = 'ar'>Area</a>
+        <a href='javascript:void(0)' class="btn" id = 'ar'>Aire</a>
     </div>
     <div id="colorpicker">
           <?php include 'colorpicker/colorpicker.php' ?>
