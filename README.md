@@ -12,6 +12,7 @@ This project is being developped in the context of the TO52 course at [UTBM](htt
 - User authentication using apache BasicAuth
 - User-configurable chart type and colors
 - Automatic cookies management for color choice
+- Chart update on csv file modification (no page/div reload)
 - Gluten-free
 
 ## Todo
