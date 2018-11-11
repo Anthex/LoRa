@@ -29,7 +29,7 @@ This project is being developped in the context of the TO52 course at [UTBM](htt
  Basic script to send POST request with 2 numeric arguments
 ### usage example:
  ```
- python ./rest 42 69
+ python ./rest.py 42 69
  ```
  ### Code:
  ```python
