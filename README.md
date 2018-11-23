@@ -19,6 +19,7 @@ This project is being developped in the context of the TO52 course at [UTBM](htt
 - MySQL integration
 - Data structure rewrite for more flexibility
 - User-friendly functions
+- Automatic installation script with field configuration
 
 ## Deployment instructions
 - Clone this repo
@@ -28,6 +29,7 @@ This project is being developped in the context of the TO52 course at [UTBM](htt
 
  ## Python request example (2.7)
  Basic script to send POST request with 2 numeric arguments
+ [File : python_example/rest.py](https://github.com/Anthex/LoRa/blob/master/python_example/rest.py)
 ### usage example:
  ```
  python ./rest.py 42 69
