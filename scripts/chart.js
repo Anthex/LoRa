@@ -35,9 +35,9 @@
                        'height':$(window).height()/2,
                        isStacked: true,
                        tooltip: { trigger: 'visible' },
-                       'backgroundColor': {
+                       backgroundColor: {
                            'fill': '#FFFFFF',
-                           'fillOpacity': 0.0,
+                           'fillOpacity': 0.0
                         },
                         series: {                            
                             0: { color: tempColor, areaOpacity:1 }, //temp
@@ -45,10 +45,9 @@
                           },
                        curveType: 'function',
                        titleTextStyle: {color: 'white'},
-                        hAxis: {textStyle: {color: 'white'},
-                            titleTextStyle: {color: 'white'}},
-                        vAxis: {textStyle: {color: 'white'},titleTextStyle: {color: 'white'},gridlines: {color: 'transparent'}},
-                       legend: {textStyle: {color: 'white'}}
+                        hAxis: {textStyle: {color: 'white'}, titleTextStyle: {color: 'white'}},
+                        vAxis: {textStyle: {color: 'white'}, titleTextStyle: {color: 'white'}, gridlines: {color: 'transparent'}},
+                       legend: {textStyle: {color: 'white'}},
                       };
 
         chart = new google.visualization.LineChart(document.getElementById('chart_div'));
