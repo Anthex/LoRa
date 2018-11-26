@@ -13,6 +13,9 @@ background-image: linear-gradient(to right top, #1c1c1c, #25272f, #283444, #2342
   margin:0px;
   overflow: hidden;
 }
+#bg canvas { position:fixed; top:0; left:0; z-index:-1; }
+#bg {z-index:2 }
+
 p{
   
   color:#ffffff;

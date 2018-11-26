@@ -1,5 +1,5 @@
   var tempColor, hygroColor, options, chart, data;
-  
+
   function updateColor(){
           tempColor = document.getElementById("tempColor").style.backgroundColor;
           hygroColor = document.getElementById("hygroColor").style.backgroundColor;
