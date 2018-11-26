@@ -15,8 +15,8 @@
       function drawChart() {
         data = new google.visualization.DataTable();
         data.addColumn('string', 'Date');
-        data.addColumn('number', 'Température');
-        data.addColumn('number', 'Hygrométrie');
+        data.addColumn('number', 'Distance');
+        data.addColumn('number', 'param2');
         $.ajax({
                       url : 'data_update.php',
                       datatype : 'text',
@@ -33,7 +33,7 @@
         options = {'title':"LoRa module 1",
                        'width':$(window).width,
                        'height':$(window).height()/2,
-                       isStacked: true,
+                       isStacked: false,
                        tooltip: { trigger: 'visible' },
                        backgroundColor: {
                            'fill': '#FFFFFF',
@@ -78,8 +78,8 @@
                      if(previous!=""){
                       data = new google.visualization.DataTable();
                       data.addColumn('string', 'Date');
-                      data.addColumn('number', 'Température');
-                      data.addColumn('number', 'Hygrométrie');
+                      data.addColumn('number', 'Distance');
+                      data.addColumn('number', 'param2');
                       $.ajax({
                       url : 'data_update.php',
                       datatype : 'text',
