@@ -43,7 +43,7 @@
                             0: { color: tempColor, areaOpacity:1 }, //temp
                             1: { color: hygroColor, areaOpacity:1 }, //hygro
                           },
-                       curveType: 'function',
+                       //curveType: 'function',
                        titleTextStyle: {color: 'white'},
                         hAxis: {textStyle: {color: 'white'}, titleTextStyle: {color: 'white'}},
                         vAxis: {textStyle: {color: 'white'}, titleTextStyle: {color: 'white'}, gridlines: {color: 'transparent'}},

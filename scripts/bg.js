@@ -1,5 +1,5 @@
 var particlesArray;
-var particlesCount = 20;
+var particlesCount = 10;
 var part;
 var minDist, currentDist, minDistIndex;
 var minDist2, minDistIndex2;
