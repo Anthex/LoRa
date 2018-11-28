@@ -27,7 +27,7 @@
      <!-- Background -->
      <script type="text/javascript" src="scripts/bg.js"></script>
      <!-- P5.JS -->
-     <script type="text/javascript" src="https://github.com/processing/p5.js/releases/download/0.7.2/p5.min.js"></script>
+     <script type="text/javascript" src="scripts/p5.min.js"></script>
      
   </head>
   <body scroll="no">
