@@ -25,9 +25,9 @@
       <!-- Animations -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
      <!-- Background -->
-     <script type="text/javascript" src="scripts/bg.js"></script>
+     <!--<script type="text/javascript" src="scripts/bg.js"></script>-->
      <!-- P5.JS -->
-     <script type="text/javascript" src="scripts/p5.min.js"></script>
+     <!--<script type="text/javascript" src="scripts/p5.min.js"></script>-->
      
   </head>
   <body scroll="no">
